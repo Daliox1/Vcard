@@ -9,5 +9,6 @@ Voici les axes de travail qui constituent la roadmap de ce projet :
 - [x] Construction du repository et de ses dossiers/fichiers ;
 - [x] Construction du vcard.html et du corps de la vcard en HTML ;
 - [x] Récupération des images et couleurs voulues pour le CSS de la vcard ;
+- [x] Implémentation du CSS pour placer correctement les éléments de la vcard ;
 - [ ] Implémentation du CSS pour finaliser le rendu final ;
 - [ ] Rendre la vcard responsive ;
