@@ -1,0 +1,78 @@
+body {
+    margin: auto;
+    width: 95%
+}
+
+article {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.centraltext {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 500px;
+    margin-left: 5px;
+}
+
+.navlinks {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.name, .title, .description {
+    text-align: justify;
+}
+
+.logowh3 {
+    align-self: flex-start;
+}
+
+.name {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+footer {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    margin-top: auto;
+}
+
+.contacts {
+    display: flex;
+    justify-content: right;
+    flex-direction: column;
+    list-style: none;
+    margin: 0;
+}
+
+.contacts2 {
+    padding-bottom: 3px;
+}
+
+.socialmedia {
+    display: flex;
+    justify-content: right;
+    flex-direction: row;
+    list-style: none;
+    padding-right: 4.5%;
+    margin: 0;
+}
+
+.socialmedia2 {
+    padding: 3px;
+}
