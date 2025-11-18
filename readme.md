@@ -5,7 +5,7 @@ Ce projet a pour simple objectif de réaliser une vcard en utilisant les langage
 
 ## Roadmap
 Voici les axes de travail qui constituent la roadmap de ce projet :
-- [ x ] Composition du readme ;
+- [x] Composition du readme ;
 - [ ] Construction du repository et de ses dossiers/fichiers ;
 - [ ] Construction du vcard.html et du corps de la vcard en HTML ;
 - [ ] Récupération des images et couleurs voulues pour le CSS de la vcard ;
