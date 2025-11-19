@@ -1,3 +1,14 @@
+@font-face {
+    font-family: "MedievalSharp-Regular";
+    src: url(assets/font/MedievalSharp-Regular.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+    font-family: "MedievalSharp-Regular", serif;
+}
+
 body {
     margin: auto;
     width: 95%;
@@ -110,7 +121,7 @@ footer {
     justify-content: right;
     flex-direction: row;
     list-style: none;
-    padding-right: 2.5%;
+    padding-right: 3%;
     padding-bottom: 0.5%;
     margin: 0;
 }
