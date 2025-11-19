@@ -5,6 +5,11 @@
     font-style: normal;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 html {
     font-family: "MedievalSharp-Regular", serif;
 }
@@ -30,6 +35,12 @@ header {
     flex-direction: row;
     margin-top: auto;
     margin-bottom: auto;
+}
+
+.divider-marg {
+    width: 64px;
+    height: 480px;    /* tu gardes ta taille initiale */
+    max-width: none;  /* désactive le comportement responsive */
 }
 
 .centraltext {
