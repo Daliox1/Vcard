@@ -1,7 +1,7 @@
 body {
     margin: auto;
     width: 95%;
-    background-image: url(assets/images/paper-texture1.jpg);
+    background-image: url(assets/images/grunge-background.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -26,21 +26,7 @@ header {
     flex-direction: column;
     justify-content: center;
     width: 500px;
-    margin-left: 25px;
-    border-left: 10px solid transparent;
-    border-image: url("assets/images/marge.png") 30 round;
-}
-
-.centraltext::before {
-    content: "";
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 32px;
-    height: 32px;
-    background-image: url('assets/images/marge.png');
-    background-size: contain;
-    background-repeat: no-repeat;
+    margin-left: 5px;
 }
 
 .navlinks {
@@ -82,26 +68,29 @@ footer {
     margin-top: auto;
 }
 
-.navlinks a {
-    display: flex;
-    align-items: center;
-}
-
 .buttonsteam {
     vertical-align: middle;
     margin-right: 50px;
-    border-width: 100px;
-    border: 3px solid black;
 }
-
-.buttonme {
-    border-width: 100px;
-    border: 3px solid black;
-}
-
 .buttonme, .buttonsteam {
-    padding: 15px;
+    display: flex;
+    align-items: center;
+    padding: 50px;
     text-decoration: none;
+    border: 1px;
+    border-radius: 50px;
+    background-image: url(assets/images/bouton-1.png);
+    background-position: center;
+    background-size: cover;
+    font-weight: bold;
+    color: black;
+    transition: transform 0.5s ease,
+                border-width 0.5s ease;
+}
+
+.buttonsteam:hover, .buttonme:hover {
+    transform: scale(1.3);
+    border-width: 4px;
 }
 
 .contacts {
@@ -121,10 +110,19 @@ footer {
     justify-content: right;
     flex-direction: row;
     list-style: none;
-    padding-right: 4.5%;
+    padding-right: 2.5%;
+    padding-bottom: 0.5%;
     margin: 0;
 }
 
 .socialmedia2 {
-    padding: 3px;
+    padding: 5px;
+    transition: transform 0.3s ease, 
+                box-shadow 0.3s ease, 
+                border-width 0.3s ease;
+}
+
+.socialmedia2:hover {
+    transform: scale(1.2);
+    border-width: 4px;
 }
